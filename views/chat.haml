@@ -1,0 +1,19 @@
+.container
+  .row
+    .one-half.column
+      %h3#head-title WebSockets Chat Demo
+      %form
+        %label{:for => "message"} Message
+        %textarea#message.text{:autofocus => "true", :placeholder => "Enter text", :type => "text"}
+        %button#send.button-primary{:type => "submit"} Send
+        /%button#emoji{:type => "button"} Emojify
+      %p
+        Made with 
+        %span#star
+          %a#no-style{:href => "http://cuba.is"} &#x2605;
+        and powered by
+        %span#coffee
+          %a#no-style{:href => "http://en.wikipedia.org/wiki/Coffee"} &#x2615;
+        \.
+    .one-half.column
+      #chat

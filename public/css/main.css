@@ -1,0 +1,38 @@
+#no-style {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#head-title {
+	margin-top: 40px;
+}
+
+#message {
+    resize: vertical;
+	width: 81%;
+}
+
+/*hr {
+  transform:rotate(90deg);
+}*/
+
+.response {
+	width: 50%;
+	word-wrap: break-word;
+}
+
+.resText {
+	text-align: right;
+}
+
+#chat {
+	margin-top: 41px;
+}
+
+#star {
+	color: #cc3333;
+}
+
+#coffee {
+	color: #a67b5b;
+}
