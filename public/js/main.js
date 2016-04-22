@@ -1,6 +1,9 @@
 var ws = new WebSocket('ws://' + window.document.location.host);
 var uid = parseInt((Math.random() * 9 + 1) * Math.pow(10, 4 - 1), 10);
-var name = prompt("Enter name", "Eobard Thawne");
+var name = '';
+while (!$.trim(name)) {
+    name = prompt("Enter name", "Eobard Thawne");
+}
 var entityMap = {
     "&": "&amp;",
     "<": "&lt;",
